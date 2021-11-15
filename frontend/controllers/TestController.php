@@ -24,4 +24,9 @@ class TestController extends Controller
     {
         echo "god";
     }
+
+    public function actionPing()
+    {
+        echo "pong";
+    }
 }
