@@ -13,4 +13,9 @@ class TestController extends Controller
     {
         echo "Hello World";
     }
+
+    public function actionHello()
+    {
+        echo "Hi";
+    }
 }
