@@ -14,8 +14,8 @@ class TestController extends Controller
         echo "Hello World";
     }
 
-    public function actionHello()
+    public function actionSay()
     {
-        echo "Hi";
+        echo "my name is zhang";
     }
 }
