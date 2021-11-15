@@ -13,6 +13,7 @@ set('repository', 'git@github.com:lihuang0513/yii-application.git');
 set('git_tty', true);
 
 task('deploy:init', function () {
+    writeln('{{release_path}}');
     run('{{bin/php}} {{release_path}}/init --env=Production --overwrite=No');
 })->desc('Initialization');
 
