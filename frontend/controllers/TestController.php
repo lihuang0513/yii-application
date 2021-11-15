@@ -9,13 +9,19 @@ use yii\web\Controller;
  */
 class TestController extends Controller
 {
+
+    public function actionIndex()
+    {
+        echo 'index';
+    }
+
     public function actionTest()
     {
         echo "Hello World";
     }
 
-    public function actionSay()
+    public function actionGod()
     {
-        echo "my name is zhang";
+        echo "god";
     }
 }
