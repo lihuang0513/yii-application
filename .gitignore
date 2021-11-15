@@ -35,3 +35,6 @@ phpunit.phar
 /.vagrant
 
 # ignore generated files
+common/config
+backend/config
+frontend/config
