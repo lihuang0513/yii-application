@@ -35,6 +35,8 @@ phpunit.phar
 /.vagrant
 
 # ignore generated files
+log
+deploy.php
 common/config
 backend/config
 frontend/config
