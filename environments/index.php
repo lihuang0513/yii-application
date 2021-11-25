@@ -64,11 +64,5 @@ return [
             'backend/config/main-local.php',
             'frontend/config/main-local.php',
         ],
-        'skipFiles' => [
-            'backend/config/main-local.php',
-            'frontend/config/main-local.php',
-            'backend/web/index.php',
-            'frontend/web/index.php',
-        ]
     ],
 ];
