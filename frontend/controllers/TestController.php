@@ -17,12 +17,7 @@ class TestController extends Controller
 
     public function actionTest()
     {
-        echo "Hello World123";
-    }
-
-    public function actionGod()
-    {
-        echo "god";
+        echo 'test';
     }
 
 }
