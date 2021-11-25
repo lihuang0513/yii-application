@@ -17,7 +17,7 @@ class TestController extends Controller
 
     public function actionTest()
     {
-        echo "Hello World";
+        echo "Hello World123";
     }
 
     public function actionGod()
@@ -25,8 +25,4 @@ class TestController extends Controller
         echo "god";
     }
 
-    public function actionPing()
-    {
-        echo "pong222";
-    }
 }
