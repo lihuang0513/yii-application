@@ -25,4 +25,9 @@ class TestController extends Controller
         echo 'pong';
     }
 
+    public function actionTT()
+    {
+        echo 'tt';
+    }
+
 }
