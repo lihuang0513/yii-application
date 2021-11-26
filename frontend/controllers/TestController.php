@@ -20,9 +20,8 @@ class TestController extends Controller
         echo phpinfo();
     }
 
-    public function actionTest()
+    public function actionPing()
     {
-        echo 'test';
+        echo 'pong';
     }
-
 }
