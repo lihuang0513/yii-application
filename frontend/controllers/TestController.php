@@ -15,6 +15,11 @@ class TestController extends Controller
         echo 'index';
     }
 
+    public function actionPhpInfo()
+    {
+        echo phpinfo();
+    }
+
     public function actionTest()
     {
         echo 'test';
