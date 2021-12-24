@@ -25,4 +25,8 @@ class TestController extends Controller
         echo 'test';
     }
 
+    public function actionTest1()
+    {
+        echo 'test1';
+    }
 }
