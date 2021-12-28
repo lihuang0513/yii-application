@@ -20,9 +20,10 @@ class TestController extends Controller
         echo phpinfo();
     }
 
-    public function actionTest()
+    public function actionHoney()
     {
-        echo 'test';
+        $this->layout = false;
+        return $this->render('honey');
     }
 
     public function actionTest1()
