@@ -26,6 +26,12 @@ class TestController extends Controller
         return $this->render('honey');
     }
 
+    public function actionJy()
+    {
+        $this->layout = false;
+        return $this->render('jy');
+    }
+
     public function actionTest1()
     {
         echo 'test1';
