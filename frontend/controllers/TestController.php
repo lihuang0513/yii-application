@@ -32,8 +32,8 @@ class TestController extends Controller
         return $this->render('jy');
     }
 
-    public function actionTest1()
+    public function actionTest2()
     {
-        echo 'test1';
+        echo 'test2';
     }
 }
