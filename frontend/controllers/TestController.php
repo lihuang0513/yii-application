@@ -37,6 +37,8 @@ class TestController extends Controller
     public function actionOrder()
     {
 
+        echo 1;die;
+
 //        if($t = \Yii::$app->redis->rpop('stock')){
 //            file_put_contents('text', $t . PHP_EOL, FILE_APPEND);
 //        }
